@@ -1,0 +1,53 @@
+{
+	"_id": 213454,
+	"name": "Provincial Election - NL",
+	"winningStrategy": "Winner Takes All",
+	"dateFrom": "Thu Oct 13 2017 00:00:00 GMT-0230 (Newfoundland Daylight Time)",
+	"dateTo": "Thu Oct 31 2018 00:00:00 GMT-0230 (Newfoundland Daylight Time)",
+	"nominationCloseDate": "Thu Oct 31 2018 00:00:00 GMT-0230 (Newfoundland Daylight Time)",
+	"previousRound": 235776,
+	"nextRound": 2357743,
+	"roundNumber": 2,
+	"nextRoundCreated": false,
+	"isDistrictElections": true,
+	"numberOfDistricts": 1,
+	"candidatesStrategy": "predefined",	// predefined or nomination
+	"usersStrategy": "registeredUsers",
+	"userObjectConditions": "",
+	"resultStrategy": "liveResults",	// liveResults or officialRelease (button pressed for releasing) or releaseDate
+	"resultsReleased": false,
+	"resultsReleaseDate": "Thu Oct 31 2018 00:00:00 GMT-0230 (Newfoundland Daylight Time)",
+	"electionFrozen": false,
+	"partyHeads": [
+		{
+			"_id": 123478,
+			"name": "NDP"
+		}
+	],
+	"districts": [
+	{
+			"name": "St. John's",
+			"latitude": 47.5743435,
+			"longitude": -52.73546,
+			"helpDocumentHTML": "<h4>Hello There</h4>",
+			"districtFrozen": false,
+			"candidates": [
+				{
+					"_id": 234455,
+					"partyName": "NDP",
+					"numOfVotes": 123,
+					"isApproved": false
+				}
+			],
+			"voters": [
+				{
+					"_id": 234455,
+					"hasVoted": false,
+					"votedFor": 3456634
+				}
+			]
+		}
+	],
+	"createdAt": "Thu Oct 13 2017 00:00:00 GMT-0230 (Newfoundland Daylight Time)",
+	"modifiedAt": "Thu Oct 31 2018 00:00:00 GMT-0230 (Newfoundland Daylight Time)"
+}
